@@ -1,17 +1,21 @@
-# configure
+
+
+A backend template for developing modern web application. Using FastAPI, SQLite as database, automatic HTTPS and more.
+
+# Configure
 
    modify lines in app/core/config.py
 
-# install dependencies
+# Install dependencies
 
     poetry install
 
-# initialize SQLite database
+# Initialize SQLite database
 
     poetry run python create_database.py
     poetry run python start_database.py
 
-# run backend app
+# Run backend app
 
     poetry run uvicorn main:app --reload
 
