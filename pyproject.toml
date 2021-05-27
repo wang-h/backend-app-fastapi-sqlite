@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["alveinwang <wang-hao@shu.edu.cn>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+uvicorn = "^0.13.4"
+fastapi = "^0.65.1"
+python-multipart = "^0.0.5"
+emails = "^0.6"
+email-validator = "^1.1.2"
+requests = "^2.25.1"
+celery = "^5.1.0"
+passlib = "^1.7.4"
+tenacity = "^7.0.0"
+pydantic = "^1.8.2"
+gunicorn = "^20.1.0"
+alembic = "^1.6.4"
+SQLAlchemy = "^1.4.15"
+pytest = "^6.2.4"
+python-jose = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
