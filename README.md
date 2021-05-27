@@ -1,6 +1,6 @@
 
 
-A backend template for developing modern web application. Using FastAPI, SQLite as database, automatic HTTPS and more.
+A backend template for developing modern web application. Using FastAPI, SQLite as database, automatic HTTPS and more. You can also refer to the official generator ([full-stack-fastapi-postgresql](https://github.com/tiangolo/full-stack-fastapi-postgresql)) for more details.
 
 # Configure
 
